@@ -32,4 +32,5 @@ body{
 .navbar ion-icon {
     height: 31px;
     width: 43px;
+    margin-right: 10px;
 }
