@@ -1,0 +1,35 @@
+
+
+
+body{
+    height: 667px;
+    width: 375px;
+    
+
+}
+
+.entire-content{
+    background-color: #E5E5E5;
+    height: 667px;
+    width: 375px;
+    background-color: crimson;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 80px;
+}
+
+.navbar img{
+    width: 75px;
+    height: 53px;
+    margin-left: 10px;
+}
+
+.navbar ion-icon {
+    height: 31px;
+    width: 43px;
+}
