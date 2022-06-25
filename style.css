@@ -1,18 +1,17 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 
 body{
-    height: 667px;
-    width: 375px;
-    
-
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
 }
+
 
 .entire-content{
     background-color: #E5E5E5;
     height: 667px;
     width: 375px;
-    background-color: crimson;
+    position: absolute;
+    
 }
 
 .navbar{
@@ -21,8 +20,11 @@ body{
     align-items: center;
     background-color: #FFFFFF;
     height: 80px;
-}
+    width: 375px;
+    position: fixed;
 
+}    
+   
 .navbar img{
     width: 75px;
     height: 53px;
@@ -33,4 +35,38 @@ body{
     height: 31px;
     width: 43px;
     margin-right: 10px;
+}
+
+.message-container{
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 80px;
+    width: 375px;
+    position: fixed;
+    
+
+}
+
+.message-container ion-icon{
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+}
+
+
+
+.message    {
+    width: 280px;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    border: 0;
+    color: #000000;
+    
 }
